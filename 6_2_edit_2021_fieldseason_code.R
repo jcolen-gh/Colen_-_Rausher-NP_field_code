@@ -1,9 +1,6 @@
-getwd()
 setwd("C:/Users/jonat/OneDrive/Documents/Grad School Research Files")
 getwd()
 masterdata <- read.csv("C:/Users/jonat/OneDrive/Documents/Grad School Research Files/fielddatamaster3.csv")
-
-#reminder, make sure to look at observed color as well as line color!
 
 install.packages("lubridate")
 install.packages("lme4")
